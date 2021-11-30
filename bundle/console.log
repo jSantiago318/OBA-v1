@@ -1,214 +1,331 @@
 Extracting the bootstrap classpath.  This may take a few moments...
-2021-07-16 14:53:21.551:INFO::jetty-7.4.1.v20110513
-2021-07-16 14:53:21.743:INFO::Extract jar:file:/C:/Users/Joshua/Documents/OBA/onebusaway-quickstart-assembly-1.1.19-api-webapp.war!/ to C:\Users\Joshua\AppData\Local\Temp\jetty-0.0.0.0-8080-onebusaway-quickstart-assembly-1.1.19-api-webapp.war-_-any-\webapp
-2021-07-16 14:53:24.734:INFO:/:Initializing Spring root WebApplicationContext
-2021-07-16 14:53:24,735 INFO  [ContextLoader.java:187] : Root WebApplicationContext: initialization started
-2021-07-16 14:53:24,784 INFO  [AbstractApplicationContext.java:456] : Refreshing Root WebApplicationContext: startup date [Fri Jul 16 14:53:24 EDT 2021]; root of context hierarchy
-2021-07-16 14:53:24,832 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [application-context-webapp.xml]
-2021-07-16 14:53:24,906 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/api/application-context-webapp.xml]
-2021-07-16 14:53:24,932 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/users/application-context.xml]
-2021-07-16 14:53:24,961 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context.xml]
-2021-07-16 14:53:24,974 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-hibernate.xml]
-2021-07-16 14:53:24,995 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-caching.xml]
-2021-07-16 14:53:25,006 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-common.xml]
-2021-07-16 14:53:25,139 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
-2021-07-16 14:53:25,198 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'userLastAccessTimeServiceImpl': replacing [Generic bean: class [org.onebusaway.users.impl.internal.UserLastAccessTimeServiceImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Joshua/AppData/Local/Temp/jetty-0.0.0.0-8080-onebusaway-quickstart-assembly-1.1.19-api-webapp.war-_-any-/webapp/WEB-INF/lib/onebusaway-users-1.1.19.jar!/org/onebusaway/users/impl/internal/UserLastAccessTimeServiceImpl.class]] with [Generic bean: class [org.onebusaway.users.impl.internal.UserLastAccessTimeServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/users/application-context.xml]]
-2021-07-16 14:53:25,200 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
-2021-07-16 14:53:25,220 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-webapp.xml]
-2021-07-16 14:53:25,230 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context.xml]
-2021-07-16 14:53:25,241 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-services.xml]
-2021-07-16 14:53:25,258 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-common.xml]
-2021-07-16 14:53:25,269 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context.xml]
-2021-07-16 14:53:25,281 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-hibernate.xml]
-2021-07-16 14:53:25,294 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-caching.xml]
-2021-07-16 14:53:25,304 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-common.xml]
-2021-07-16 14:53:25,320 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'defaultPropertyPlaceholderConfigurer': replacing [Generic bean: class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-common.xml]] with [Generic bean: class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-common.xml]]
-2021-07-16 14:53:25,321 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'ehCacheConfiguration': replacing [Generic bean: class [org.onebusaway.container.spring.ehcache.EhCacheConfigurationFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.onebusaway.container.spring.ehcache.EhCacheConfigurationFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,322 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'cacheManager': replacing [Generic bean: class [org.onebusaway.container.spring.ehcache.EhCacheManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.onebusaway.container.spring.ehcache.EhCacheManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,324 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'cacheableKeyFactories': replacing [Generic bean: class [org.springframework.beans.factory.config.MapFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.springframework.beans.factory.config.MapFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,327 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'cacheableMethodKeyFactoryManager': replacing [Generic bean: class [org.onebusaway.container.cache.CacheableMethodKeyFactoryManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.onebusaway.container.cache.CacheableMethodKeyFactoryManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,329 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'cacheableMethodManager': replacing [Generic bean: class [org.onebusaway.container.cache.CacheableMethodManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.onebusaway.container.cache.CacheableMethodManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,330 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'cacheableAnnotationInterceptor': replacing [Generic bean: class [org.onebusaway.container.cache.CacheableAnnotationInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]] with [Generic bean: class [org.onebusaway.container.cache.CacheableAnnotationInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-caching.xml]]
-2021-07-16 14:53:25,332 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'hibernateProperties': replacing [Generic bean: class [org.springframework.beans.factory.config.PropertiesFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]] with [Generic bean: class [org.springframework.beans.factory.config.PropertiesFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]]
-2021-07-16 14:53:25,333 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'hibernateAnnotatedClasses': replacing [Generic bean: class [org.springframework.beans.factory.config.ListFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]] with [Generic bean: class [org.springframework.beans.factory.config.ListFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]]
-2021-07-16 14:53:25,335 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'hibernateMappingLocations': replacing [Generic bean: class [org.springframework.beans.factory.config.ListFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]] with [Generic bean: class [org.springframework.beans.factory.config.ListFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]]
-2021-07-16 14:53:25,336 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]] with [Generic bean: class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]]
-2021-07-16 14:53:25,337 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate3.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]] with [Generic bean: class [org.springframework.orm.hibernate3.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context-hibernate.xml]]
-2021-07-16 14:53:25,339 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'mbeanServer': replacing [Generic bean: class [org.springframework.jmx.support.MBeanServerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.jmx.support.MBeanServerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,341 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'jmxAttributeSource': replacing [Generic bean: class [org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,343 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'jmxNamingStategy': replacing [Generic bean: class [org.springframework.jmx.export.naming.MetadataNamingStrategy]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.jmx.export.naming.MetadataNamingStrategy]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,344 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'jmxInfoAssembler': replacing [Generic bean: class [org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,345 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'mbeanExporter': replacing [Generic bean: class [org.springframework.jmx.export.MBeanExporter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.jmx.export.MBeanExporter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,347 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'ehCacheMBeanRegistration': replacing [Generic bean: class [org.springframework.beans.factory.config.MethodInvokingFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.springframework.beans.factory.config.MethodInvokingFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]]
-2021-07-16 14:53:25,348 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-otp.xml]
-2021-07-16 14:53:25,362 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
-2021-07-16 14:53:25,378 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
-2021-07-16 14:53:25,541 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'extendedCalendarServiceImpl': replacing [Generic bean: class [org.onebusaway.transit_data_federation.impl.ExtendedCalendarServiceImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Joshua/AppData/Local/Temp/jetty-0.0.0.0-8080-onebusaway-quickstart-assembly-1.1.19-api-webapp.war-_-any-/webapp/WEB-INF/lib/onebusaway-transit-data-federation-1.1.19.jar!/org/onebusaway/transit_data_federation/impl/ExtendedCalendarServiceImpl.class]] with [Generic bean: class [org.onebusaway.transit_data_federation.impl.ExtendedCalendarServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/transit_data_federation/application-context-services.xml]]
-2021-07-16 14:53:25,543 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'jmxNamingStategy': replacing [Generic bean: class [org.springframework.jmx.export.naming.MetadataNamingStrategy]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/container/application-context.xml]] with [Generic bean: class [org.onebusaway.container.spring.jmx.ServletContextAwareMetadataNamingStrategy]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/transit_data_federation/application-context-webapp.xml]]
-2021-07-16 14:53:25,544 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [org.springframework.jdbc.datasource.DriverManagerDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/transit_data_federation/application-context-common.xml]] with [Generic bean: class [org.springframework.jdbc.datasource.DriverManagerDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [application-context-webapp.xml]]
-2021-07-16 14:53:25,545 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [data-sources.xml]
-2021-07-16 14:53:25,564 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [org.springframework.jdbc.datasource.DriverManagerDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [application-context-webapp.xml]] with [Generic bean: class [org.springframework.jdbc.datasource.DriverManagerDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [data-sources.xml]]
-=== BootstrapWebApplicationContext! ============================
-=== GTFS REALTIME! ============================
-2021-07-16 14:53:25,931 INFO  [AutowiredAnnotationBeanPostProcessor.java:138] : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2021-07-16 14:53:26,140 INFO  [AbstractApplicationContext.java:1332] : Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-07-16 14:53:26,271 INFO  [AbstractApplicationContext.java:1332] : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-07-16 14:53:26,287 INFO  [DefaultListableBeanFactory.java:549] : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7cc67dd4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,defaultPropertyPlaceholderConfigurer,ehCacheConfiguration,cacheManager,cacheableKeyFactories,cacheableMethodKeyFactoryManager,cacheableMethodManager,cacheableAnnotationInterceptor,org.springframework.beans.factory.config.MethodInvokingFactoryBean#0,hibernateProperties,hibernateAnnotatedClasses,hibernateMappingLocations,sessionFactory,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,mbeanServer,jmxAttributeSource,jmxNamingStategy,jmxInfoAssembler,mbeanExporter,ehCacheMBeanRegistration,userIndexCache,userCache,userIndicesCache,userRolesCache,userRoleCache,org.onebusaway.container.spring.DependencyConfigurer#0,usersHibernateAnnotatedClasses,usersHibernateMappingLocations,userPropertiesMigrationImpl,apiKeyPermissionServiceImpl,userServiceImpl,userDaoImpl,userDetailsServiceImpl,currentUserServiceImpl,defaultUserAuthenticationProvider,userInteractionLoggingServiceImpl,userLastAccessTimeServiceImpl,standardAuthoritiesServiceImpl,currentUserStrategyImpl,userPropertiesService,passwordEncoderV1,userLastAccessTimeServiceCache,lastSelectedStopServiceCache,lastSelectedStopServiceImpl,userIndexRegistrationServiceCache,userIndexRegistrationServiceImpl,minApiRequestIntervalForKeyCache,alarmServiceImpl,apiKeyValidationService,org.springframework.beans.factory.config.MethodInvokingFactoryBean#1,bundle,otpGraphBundle,dataSource,org.onebusaway.container.spring.PropertyOverrideConfigurer#0,shapePointsLibrary,contractionPathServiceImpl,contractionRoutingServiceImpl,patchServiceImpl,streetVertexIndexServiceImpl,transitGraphDaoImpl,stopSequenceCollectionServiceImpl,userReportingDaoImpl,userReportingServiceImpl,shapePointServiceImpl,projectedShapePointServiceImpl,blockLocationRecordDaoImpl,blockLocationServiceImpl,vehicleStatusServiceImpl,gtfsRealtimeServiceImpl,siriService,blockLocationRecordCacheImpl,blockLocationHistoryServiceImpl,scheduleDeviationHistoryDaoImpl,realTimeHistoryServiceImpl,vehicleLocationRecordCacheImpl,currentVehicleEstimationServiceImpl,routeServiceImpl,stopSearchServiceImpl,narrativeServiceImpl,stopTimeServiceImpl,refreshableCalendarServiceImpl,stopSequencesServiceImpl,arrivalAndDepartureAlarmServiceImpl,agencyServiceImpl,transitDataServiceImpl,transitDataServiceExceptionInterceptor,stopTransferServiceImpl,stopHopServiceImpl,itinerariesServiceImpl,transferPatternServiceImpl,trivialBundleManagementServiceImpl,itinerariesBeanServiceImpl,nearbyStopsBeanServiceImpl,agencyBeanServiceImpl,blockBeanServiceImpl,stopWithArrivalsAndDeparturesBeanServiceImpl,blockStatusBeanServiceImpl,arrivalsAndDeparturesBeanServiceImpl,tripStopTimesBeanServiceImpl,stopTimeBeanServiceImpl,stopsBeanServiceImpl,tripBeanServiceImpl,routeBeanServiceImpl,serviceAlertsBeanServiceImpl,stopScheduleBeanServiceImpl,routesBeanServiceImpl,shapeBeanServiceImpl,vehicleStatusBeanServiceImpl,tripStatusBeanServiceImpl,stopBeanServiceImpl,extendedCalendarServiceImpl,trivialPredictionHelperService,whereGeospatialServiceImpl,routeCollectionSearchServiceImpl,scheduledBlockLocationServiceImpl,blockStatusServiceImpl,blockGeospatialServiceImpl,blockIndexFactoryServiceImpl,blockIndexServiceImpl,blockCalendarServiceImpl,arrivalAndDepartureServiceImpl,trivialSchedulerHelperService,stopScheduleServiceImpl,serviceAlertsServiceImpl,OBAGraphServiceImpl,OTPConfigurationServiceImpl,streetToStopGraphLinkerService,transitShedPathServiceImpl,transitDataFederationHibernateAnnotatedClasses,transitDataFederationHibernateMappingLocations,refreshServiceImpl,tripPlannerConstants,extendedCalendarServiceServiceDateRangeCache,scheduledExecutorService,org.onebusaway.users.impl.CreateUserAction#0,org.onebusaway.users.impl.CreateApiKeyAction#0,org.onebusaway.users.impl.CreateApiKeyAction#1,org.onebusaway.users.impl.CreateApiKeyAction#2,org.onebusaway.users.impl.CreateApiKeyAction#3,org.onebusaway.users.impl.CreateApiKeyAction#4,org.onebusaway.users.impl.CreateApiKeyAction#5,org.onebusaway.users.impl.CreateApiKeyAction#6,externalGeocoderImpl,gtfsRealtimeSource]; root of factory hierarchy
-2021-07-16 14:53:26,298 INFO  [EhCacheConfigurationFactoryBean.java:74] : Initializing EHCache CacheManager
-2021-07-16 14:53:26,328 INFO  [EhCacheConfigurationFactoryBean.java:77] : diskStorePath=C:\Users\Joshua\Documents\OBA\bundle\cache
-2021-07-16 14:53:26,330 INFO  [EhCacheConfigurationFactoryBean.java:80] : diskStorePath (translated)=C:\Users\Joshua\Documents\OBA\bundle\cache
-2021-07-16 14:53:26,431 INFO  [EhCacheManagerFactoryBean.java:74] : Initializing EHCache CacheManager
-2021-07-16 14:53:26,869 INFO  [DriverManagerDataSource.java:153] : Loaded JDBC driver: org.hsqldb.jdbcDriver
-2021-07-16 14:53:26,913 INFO  [Version.java:15] : Hibernate Annotations 3.4.0.GA
-2021-07-16 14:53:26,921 INFO  [Environment.java:543] : Hibernate 3.3.1.GA
-2021-07-16 14:53:26,926 INFO  [Environment.java:576] : hibernate.properties not found
-2021-07-16 14:53:26,931 INFO  [Environment.java:709] : Bytecode provider name : javassist
-2021-07-16 14:53:26,939 INFO  [Environment.java:627] : using JDK 1.4 java.sql.Timestamp handling
-2021-07-16 14:53:26,983 INFO  [Version.java:14] : Hibernate Commons Annotations 3.1.0.GA
-2021-07-16 14:53:27,126 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.users.model.User
-2021-07-16 14:53:27,152 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.users.model.User on table oba_users
-2021-07-16 14:53:27,214 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.users.model.UserIndex
-2021-07-16 14:53:27,215 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.users.model.UserIndex on table oba_user_indices
-2021-07-16 14:53:27,225 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.users.model.UserRole
-2021-07-16 14:53:27,225 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.users.model.UserRole on table oba_user_roles
-2021-07-16 14:53:27,227 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord
-2021-07-16 14:53:27,228 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord on table transit_data_block_location_records
-2021-07-16 14:53:27,245 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory
-2021-07-16 14:53:27,246 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory on table oba_schedule_deviation_history
-2021-07-16 14:53:27,250 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.reporting.StopProblemReportRecord
-2021-07-16 14:53:27,250 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.reporting.StopProblemReportRecord on table oba_stop_problem_reports
-2021-07-16 14:53:27,254 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.reporting.TripProblemReportRecord
-2021-07-16 14:53:27,254 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.reporting.TripProblemReportRecord on table oba_trip_problem_reports
-2021-07-16 14:53:27,301 INFO  [CollectionBinder.java:650] : Mapping collection: org.onebusaway.users.model.User.userIndices -> oba_user_indices
-2021-07-16 14:53:27,308 INFO  [AnnotationConfiguration.java:369] : Hibernate Validator not found: ignoring
-2021-07-16 14:53:27,308 INFO  [LocalSessionFactoryBean.java:772] : Building new Hibernate SessionFactory
-2021-07-16 14:53:27,310 INFO  [HibernateSearchEventListenerRegister.java:53] : Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-2021-07-16 14:53:27,342 INFO  [ConnectionProviderFactory.java:95] : Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
-2021-07-16 14:53:27,684 INFO  [?:?] : checkpointClose start
-2021-07-16 14:53:27,711 INFO  [?:?] : checkpointClose end
-2021-07-16 14:53:27,722 INFO  [SettingsFactory.java:116] : RDBMS: HSQL Database Engine, version: 2.3.2
-2021-07-16 14:53:27,722 INFO  [SettingsFactory.java:117] : JDBC driver: HSQL Database Engine Driver, version: 2.3.2
-2021-07-16 14:53:27,740 INFO  [Dialect.java:175] : Using dialect: org.hibernate.dialect.HSQLDialect
-2021-07-16 14:53:27,744 INFO  [TransactionFactoryFactory.java:62] : Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
-2021-07-16 14:53:27,746 INFO  [TransactionManagerLookupFactory.java:80] : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-2021-07-16 14:53:27,747 INFO  [SettingsFactory.java:170] : Automatic flush during beforeCompletion(): disabled
-2021-07-16 14:53:27,747 INFO  [SettingsFactory.java:174] : Automatic session close at end of transaction: disabled
-2021-07-16 14:53:27,748 INFO  [SettingsFactory.java:181] : JDBC batch size: 1000
-2021-07-16 14:53:27,748 INFO  [SettingsFactory.java:184] : JDBC batch updates for versioned data: disabled
-2021-07-16 14:53:27,750 INFO  [SettingsFactory.java:189] : Scrollable result sets: enabled
-2021-07-16 14:53:27,750 INFO  [SettingsFactory.java:197] : JDBC3 getGeneratedKeys(): enabled
-2021-07-16 14:53:27,751 INFO  [SettingsFactory.java:205] : Connection release mode: auto
-2021-07-16 14:53:27,752 INFO  [SettingsFactory.java:232] : Default batch fetch size: 1
-2021-07-16 14:53:27,752 INFO  [SettingsFactory.java:236] : Generate SQL with comments: enabled
-2021-07-16 14:53:27,752 INFO  [SettingsFactory.java:240] : Order SQL updates by primary key: disabled
-2021-07-16 14:53:27,753 INFO  [SettingsFactory.java:244] : Order SQL inserts for batching: disabled
-2021-07-16 14:53:27,753 INFO  [SettingsFactory.java:420] : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-2021-07-16 14:53:27,756 INFO  [ASTQueryTranslatorFactory.java:47] : Using ASTQueryTranslatorFactory
-2021-07-16 14:53:27,758 INFO  [SettingsFactory.java:252] : Query language substitutions: {}
-2021-07-16 14:53:27,759 INFO  [SettingsFactory.java:257] : JPA-QL strict compliance: disabled
-2021-07-16 14:53:27,760 INFO  [SettingsFactory.java:262] : Second-level cache: enabled
-2021-07-16 14:53:27,760 INFO  [SettingsFactory.java:266] : Query cache: disabled
-2021-07-16 14:53:27,761 INFO  [SettingsFactory.java:405] : Cache region factory : org.onebusaway.container.spring.ehcache.EhCacheRegionFactory
-2021-07-16 14:53:27,766 INFO  [SettingsFactory.java:276] : Optimize cache for minimal puts: enabled
-2021-07-16 14:53:27,766 INFO  [SettingsFactory.java:285] : Structured second-level cache entries: enabled
-2021-07-16 14:53:27,772 INFO  [SettingsFactory.java:314] : Statistics: enabled
-2021-07-16 14:53:27,773 INFO  [SettingsFactory.java:318] : Deleted entity synthetic identifier rollback: disabled
-2021-07-16 14:53:27,773 INFO  [SettingsFactory.java:333] : Default entity-mode: pojo
-2021-07-16 14:53:27,774 INFO  [SettingsFactory.java:337] : Named query checking : enabled
-2021-07-16 14:53:27,808 INFO  [SessionFactoryImpl.java:187] : building session factory
-2021-07-16 14:53:27,915 WARN  [AbstractEhcacheRegionFactory.java:153] : Couldn't find a specific ehcache configuration for cache named [org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory]; using defaults.
-2021-07-16 14:53:27,919 WARN  [EhcacheAccessStrategyFactoryImpl.java:44] : read-only cache configured for mutable entity [org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory]
-2021-07-16 14:53:27,930 WARN  [AbstractEhcacheRegionFactory.java:153] : Couldn't find a specific ehcache configuration for cache named [org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord]; using defaults.
-2021-07-16 14:53:27,959 WARN  [EhcacheAccessStrategyFactoryImpl.java:44] : read-only cache configured for mutable entity [org.onebusaway.users.model.UserRole]
-2021-07-16 14:53:28,034 INFO  [SessionFactoryObjectFactory.java:105] : Not binding factory to JNDI, no JNDI name configured
-2021-07-16 14:53:28,040 INFO  [SchemaUpdate.java:155] : Running hbm2ddl schema update
-2021-07-16 14:53:28,041 INFO  [SchemaUpdate.java:167] : fetching database metadata
-2021-07-16 14:53:28,048 INFO  [SchemaUpdate.java:179] : updating schema
-2021-07-16 14:53:28,105 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_SCHEDULE_DEVIATION_HISTORY
-2021-07-16 14:53:28,105 INFO  [TableMetadata.java:63] : columns: [trip_agencyid, trip_id, scheduledeviations, scheduletimes]
-2021-07-16 14:53:28,106 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,107 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10093_10094]
-2021-07-16 14:53:28,114 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_STOP_PROBLEM_REPORTS
-2021-07-16 14:53:28,115 INFO  [TableMetadata.java:63] : columns: [stopid_id, code, data, stopid_agencyid, id, time, usercomment, userlon, userlocationaccuracy, status, userlat]
-2021-07-16 14:53:28,115 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,116 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10098_10100]
-2021-07-16 14:53:28,120 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_TRIP_PROBLEM_REPORTS
-2021-07-16 14:53:28,121 INFO  [TableMetadata.java:63] : columns: [code, data, vehiclelon, userlat, scheduledeviation, block_agencyid, stop_id, id, usercomment, userlon, vehicle_id, predicted, vehiclelat, trip_agencyid, trip_id, stop_agencyid, label, useronvehicle, block_id, uservehiclenumber, vehicle_agencyid, matchedvehicle_id, servicedate, distancealongblock, time, matchedvehicle_agencyid, userlocationaccuracy, status]
-2021-07-16 14:53:28,121 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,122 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10104_10109]
-2021-07-16 14:53:28,127 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_USER_INDICES
-2021-07-16 14:53:28,127 INFO  [TableMetadata.java:63] : columns: [credentials, user_id, type, value]
-2021-07-16 14:53:28,128 INFO  [TableMetadata.java:65] : foreign keys: [fk1aac12e4159a0621]
-2021-07-16 14:53:28,128 INFO  [TableMetadata.java:66] : indexes: [sys_idx_10153, sys_idx_sys_pk_10117_10118]
-2021-07-16 14:53:28,135 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_USER_ROLES
-2021-07-16 14:53:28,136 INFO  [TableMetadata.java:63] : columns: [name]
-2021-07-16 14:53:28,136 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,136 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10122_10123]
-2021-07-16 14:53:28,140 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_USER_ROLES_MAPPING
-2021-07-16 14:53:28,140 INFO  [TableMetadata.java:63] : columns: [user_id, roles_name]
-2021-07-16 14:53:28,141 INFO  [TableMetadata.java:65] : foreign keys: [fk3aaf66c9b8180675, fk3aaf66c9159a0621]
-2021-07-16 14:53:28,141 INFO  [TableMetadata.java:66] : indexes: [sys_idx_10131, sys_idx_10157, sys_idx_sys_pk_10127_10128]
-2021-07-16 14:53:28,146 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_USERS
-2021-07-16 14:53:28,146 INFO  [TableMetadata.java:63] : columns: [temporary, lastaccesstime, id, creationtime, properties]
-2021-07-16 14:53:28,146 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,147 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10134_10136]
-2021-07-16 14:53:28,150 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.TRANSIT_DATA_BLOCK_LOCATION_RECORDS
-2021-07-16 14:53:28,150 INFO  [TableMetadata.java:63] : columns: [phase, locationlat, orientation, trip_agencyid, trip_id, timepointpredictedarrivaltime, timepointscheduledtime, block_id, timepoint_id, vehicle_agencyid, scheduledeviation, block_agencyid, servicedate, timepointpredicteddeparturetime, distancealongtrip, distancealongblock, id, time, locationlon, vehicle_id, status, timepoint_agencyid]
-2021-07-16 14:53:28,151 INFO  [TableMetadata.java:65] : foreign keys: []
-2021-07-16 14:53:28,151 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10140_10146]
-2021-07-16 14:53:28,152 INFO  [SchemaUpdate.java:217] : schema update complete
-2021-07-16 14:53:28,464 INFO  [HibernateTransactionManager.java:415] : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@bc8499b] of Hibernate SessionFactory for HibernateTransactionManager
-2021-07-16 14:53:28,710 INFO  [MBeanExporter.java:412] : Registering beans for JMX exposure on startup
-2021-07-16 14:53:28,867 INFO  [MBeanExporter.java:886] : Bean with name 'blockLocationRecordDaoImpl' has been autodetected for JMX exposure
+{java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\bin, java.vm.version=25.302-b08, java.vm.vendor=Temurin, java.vendor.url=https://adoptium.net/, path.separator=;, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Ricardo\Desktop\vault606\OBA\OBA-v1, java.runtime.version=1.8.0_302-b08, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Ricardo\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Ruby30-x64\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;;C:\Program Files\PuTTY\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\Ricardo\anaconda3;C:\Users\Ricardo\anaconda3\Library\mingw-w64\bin;C:\Users\Ricardo\anaconda3\Library\usr\bin;C:\Users\Ricardo\anaconda3\Library\bin;C:\Users\Ricardo\anaconda3\Scripts;C:\Users\Ricardo\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Ricardo\AppData\Local\Programs\Python\Python36\;C:\Users\Ricardo\AppData\Local\Microsoft\WindowsApps;C:\Users\Ricardo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;C:\Users\Ricardo\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\Ricardo\AppData\Local\GitHubDesktop\bin;C:\Users\Ricardo\AppData\Local\atom\bin;C:\Users\Ricardo\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;., sun.awt.enableExtraMouseButtons=true, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Ricardo, user.timezone=America/La_Paz, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.8, java.class.path=.\oba.war, user.name=Ricardo, java.vm.specification.version=1.8, sun.java.command=.\oba.war, java.home=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_302, java.ext.dirs=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\classes, java.vendor=Temurin, sun.stderr.encoding=cp437, file.separator=\, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.stdout.encoding=cp437, sun.desktop=windows, sun.cpu.isalist=amd64}
+2021-10-14 17:11:43,698 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/bundle/application-context-bundle-creator.xml]
+2021-10-14 17:11:43,970 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-services.xml]
+2021-10-14 17:11:43,991 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-common.xml]
+2021-10-14 17:11:44,003 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context.xml]
+2021-10-14 17:11:44,014 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-hibernate.xml]
+2021-10-14 17:11:44,026 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-caching.xml]
+2021-10-14 17:11:44,035 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/container/application-context-common.xml]
+2021-10-14 17:11:44,086 INFO  [XmlBeanDefinitionReader.java:315] : Loading XML bean definitions from class path resource [org/onebusaway/transit_data_federation/application-context-otp.xml]
+2021-10-14 17:11:44,104 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2021-10-14 17:11:44,135 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2021-10-14 17:11:44,260 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'extendedCalendarServiceImpl': replacing [Generic bean: class [org.onebusaway.transit_data_federation.impl.ExtendedCalendarServiceImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Ricardo/AppData/Local/Temp/org.onebusaway.quickstart.bootstrap.BootstrapMain-2299593580306276873-jars/WEB-INF/lib/onebusaway-transit-data-federation-1.1.19.jar!/org/onebusaway/transit_data_federation/impl/ExtendedCalendarServiceImpl.class]] with [Generic bean: class [org.onebusaway.transit_data_federation.impl.ExtendedCalendarServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/transit_data_federation/application-context-services.xml]]
+2021-10-14 17:11:44,262 INFO  [ClassPathScanningCandidateComponentProvider.java:186] : JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2021-10-14 17:11:44,283 INFO  [DefaultListableBeanFactory.java:612] : Overriding bean definition for bean 'shapeGeospatialIndexTask': replacing [Generic bean: class [org.onebusaway.transit_data_federation.bundle.tasks.ShapeGeospatialIndexTask]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Ricardo/AppData/Local/Temp/org.onebusaway.quickstart.bootstrap.BootstrapMain-2299593580306276873-jars/WEB-INF/lib/onebusaway-transit-data-federation-builder-1.1.19.jar!/org/onebusaway/transit_data_federation/bundle/tasks/ShapeGeospatialIndexTask.class]] with [Generic bean: class [org.onebusaway.transit_data_federation.bundle.tasks.ShapeGeospatialIndexTask]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/onebusaway/transit_data_federation/bundle/application-context-bundle-creator.xml]]
+2021-10-14 17:11:44,294 INFO  [AbstractApplicationContext.java:456] : Refreshing org.springframework.context.support.GenericApplicationContext@1767d062: startup date [Thu Oct 14 17:11:44 BOT 2021]; root of context hierarchy
+2021-10-14 17:11:44,508 INFO  [AutowiredAnnotationBeanPostProcessor.java:138] : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-10-14 17:11:44,690 INFO  [AbstractApplicationContext.java:1332] : Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-14 17:11:44,792 INFO  [AbstractApplicationContext.java:1332] : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-14 17:11:44,802 INFO  [DefaultListableBeanFactory.java:549] : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29cdb6a7: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,defaultPropertyPlaceholderConfigurer,ehCacheConfiguration,cacheManager,cacheableKeyFactories,cacheableMethodKeyFactoryManager,cacheableMethodManager,cacheableAnnotationInterceptor,org.springframework.beans.factory.config.MethodInvokingFactoryBean#0,hibernateProperties,hibernateAnnotatedClasses,hibernateMappingLocations,sessionFactory,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,mbeanServer,jmxAttributeSource,jmxNamingStategy,jmxInfoAssembler,mbeanExporter,ehCacheMBeanRegistration,bundle,otpGraphBundle,dataSource,org.onebusaway.container.spring.PropertyOverrideConfigurer#0,shapePointsLibrary,contractionPathServiceImpl,contractionRoutingServiceImpl,patchServiceImpl,streetVertexIndexServiceImpl,transitGraphDaoImpl,stopSequenceCollectionServiceImpl,userReportingDaoImpl,userReportingServiceImpl,shapePointServiceImpl,projectedShapePointServiceImpl,blockLocationRecordDaoImpl,blockLocationServiceImpl,vehicleStatusServiceImpl,gtfsRealtimeServiceImpl,siriService,blockLocationRecordCacheImpl,blockLocationHistoryServiceImpl,scheduleDeviationHistoryDaoImpl,realTimeHistoryServiceImpl,vehicleLocationRecordCacheImpl,currentVehicleEstimationServiceImpl,routeServiceImpl,stopSearchServiceImpl,narrativeServiceImpl,stopTimeServiceImpl,refreshableCalendarServiceImpl,stopSequencesServiceImpl,arrivalAndDepartureAlarmServiceImpl,agencyServiceImpl,transitDataServiceImpl,transitDataServiceExceptionInterceptor,stopTransferServiceImpl,stopHopServiceImpl,itinerariesServiceImpl,transferPatternServiceImpl,trivialBundleManagementServiceImpl,itinerariesBeanServiceImpl,nearbyStopsBeanServiceImpl,agencyBeanServiceImpl,blockBeanServiceImpl,stopWithArrivalsAndDeparturesBeanServiceImpl,blockStatusBeanServiceImpl,arrivalsAndDeparturesBeanServiceImpl,tripStopTimesBeanServiceImpl,stopTimeBeanServiceImpl,stopsBeanServiceImpl,tripBeanServiceImpl,routeBeanServiceImpl,serviceAlertsBeanServiceImpl,stopScheduleBeanServiceImpl,routesBeanServiceImpl,shapeBeanServiceImpl,vehicleStatusBeanServiceImpl,tripStatusBeanServiceImpl,stopBeanServiceImpl,extendedCalendarServiceImpl,trivialPredictionHelperService,whereGeospatialServiceImpl,routeCollectionSearchServiceImpl,scheduledBlockLocationServiceImpl,blockStatusServiceImpl,blockGeospatialServiceImpl,blockIndexFactoryServiceImpl,blockIndexServiceImpl,blockCalendarServiceImpl,arrivalAndDepartureServiceImpl,trivialSchedulerHelperService,stopScheduleServiceImpl,serviceAlertsServiceImpl,OBAGraphServiceImpl,OTPConfigurationServiceImpl,streetToStopGraphLinkerService,transitShedPathServiceImpl,transitDataFederationHibernateAnnotatedClasses,transitDataFederationHibernateMappingLocations,refreshServiceImpl,tripPlannerConstants,extendedCalendarServiceServiceDateRangeCache,scheduledExecutorService,org.onebusaway.container.spring.PropertyOverrideConfigurer#1,modifications,stopTimeEntriesFactory,routeEntriesFactory,frequencyEntriesFactory,agencyEntriesFactory,routeCollectionEntriesFactory,blockEntriesFactory,serviceIdOverlapCache,tripEntriesFactory,stopEntriesFactory,distanceAlongShapeLibrary,blockConfigurationEntriesFactory,generateStopSearchIndexTask,generateRouteCollectionSearchIndexTask,calendarServiceDataTask,shapeGeospatialIndexTask,shapePointHelper,uniqueServiceImpl,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#0,startTask,task_gtfs,loadGtfsTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#1,calendarServiceTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#2,tripGraphTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#3,blockIndicesTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#4,narrativesTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#5,routeCollectionsSearchIndexTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#6,stopSearchIndexTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#7,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#8,otpGraphBuidlerTask,osmBuilder,osmProvider,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#9,stopTransfersTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#10,transferPatternsTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#11,transferPatternsHubAnalysisTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#12,serializedTransferPatternsTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#13,tripPlannerTestTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#14,blockLocationHistoryTask,org.onebusaway.transit_data_federation.bundle.model.TaskDefinition#15,preCacheTask,gtfsRelationalDaoImpl,gtfs-bundles,myCustomPropertyOverrides]; root of factory hierarchy
+2021-10-14 17:11:44,833 INFO  [EhCacheConfigurationFactoryBean.java:74] : Initializing EHCache CacheManager
+2021-10-14 17:11:44,858 INFO  [EhCacheConfigurationFactoryBean.java:77] : diskStorePath=C:\Users\Ricardo\Documents\OBA\cache
+2021-10-14 17:11:44,859 INFO  [EhCacheConfigurationFactoryBean.java:80] : diskStorePath (translated)=C:\Users\Ricardo\Documents\OBA\cache
+2021-10-14 17:11:44,912 INFO  [EhCacheManagerFactoryBean.java:74] : Initializing EHCache CacheManager
+2021-10-14 17:11:45,064 INFO  [DriverManagerDataSource.java:153] : Loaded JDBC driver: org.hsqldb.jdbcDriver
+2021-10-14 17:11:45,091 INFO  [Version.java:15] : Hibernate Annotations 3.4.0.GA
+2021-10-14 17:11:45,097 INFO  [Environment.java:543] : Hibernate 3.3.1.GA
+2021-10-14 17:11:45,099 INFO  [Environment.java:576] : hibernate.properties not found
+2021-10-14 17:11:45,101 INFO  [Environment.java:709] : Bytecode provider name : javassist
+2021-10-14 17:11:45,104 INFO  [Environment.java:627] : using JDK 1.4 java.sql.Timestamp handling
+2021-10-14 17:11:45,129 INFO  [Version.java:14] : Hibernate Commons Annotations 3.1.0.GA
+2021-10-14 17:11:45,216 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord
+2021-10-14 17:11:45,233 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord on table transit_data_block_location_records
+2021-10-14 17:11:45,261 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory
+2021-10-14 17:11:45,261 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory on table oba_schedule_deviation_history
+2021-10-14 17:11:45,263 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.reporting.StopProblemReportRecord
+2021-10-14 17:11:45,263 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.reporting.StopProblemReportRecord on table oba_stop_problem_reports
+2021-10-14 17:11:45,265 INFO  [AnnotationBinder.java:419] : Binding entity from annotated class: org.onebusaway.transit_data_federation.impl.reporting.TripProblemReportRecord
+2021-10-14 17:11:45,265 INFO  [EntityBinder.java:422] : Bind entity org.onebusaway.transit_data_federation.impl.reporting.TripProblemReportRecord on table oba_trip_problem_reports
+2021-10-14 17:11:45,272 INFO  [AnnotationConfiguration.java:369] : Hibernate Validator not found: ignoring
+2021-10-14 17:11:45,272 INFO  [LocalSessionFactoryBean.java:772] : Building new Hibernate SessionFactory
+2021-10-14 17:11:45,274 INFO  [HibernateSearchEventListenerRegister.java:53] : Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2021-10-14 17:11:45,313 INFO  [ConnectionProviderFactory.java:95] : Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2021-10-14 17:11:45,575 INFO  [?:?] : checkpointClose start
+2021-10-14 17:11:45,601 INFO  [?:?] : checkpointClose end
+2021-10-14 17:11:45,611 INFO  [SettingsFactory.java:116] : RDBMS: HSQL Database Engine, version: 2.3.2
+2021-10-14 17:11:45,611 INFO  [SettingsFactory.java:117] : JDBC driver: HSQL Database Engine Driver, version: 2.3.2
+2021-10-14 17:11:45,627 INFO  [Dialect.java:175] : Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-14 17:11:45,630 INFO  [TransactionFactoryFactory.java:62] : Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2021-10-14 17:11:45,631 INFO  [TransactionManagerLookupFactory.java:80] : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2021-10-14 17:11:45,631 INFO  [SettingsFactory.java:170] : Automatic flush during beforeCompletion(): disabled
+2021-10-14 17:11:45,631 INFO  [SettingsFactory.java:174] : Automatic session close at end of transaction: disabled
+2021-10-14 17:11:45,631 INFO  [SettingsFactory.java:181] : JDBC batch size: 1000
+2021-10-14 17:11:45,632 INFO  [SettingsFactory.java:184] : JDBC batch updates for versioned data: disabled
+2021-10-14 17:11:45,632 INFO  [SettingsFactory.java:189] : Scrollable result sets: enabled
+2021-10-14 17:11:45,632 INFO  [SettingsFactory.java:197] : JDBC3 getGeneratedKeys(): enabled
+2021-10-14 17:11:45,632 INFO  [SettingsFactory.java:205] : Connection release mode: auto
+2021-10-14 17:11:45,633 INFO  [SettingsFactory.java:232] : Default batch fetch size: 1
+2021-10-14 17:11:45,633 INFO  [SettingsFactory.java:236] : Generate SQL with comments: enabled
+2021-10-14 17:11:45,633 INFO  [SettingsFactory.java:240] : Order SQL updates by primary key: disabled
+2021-10-14 17:11:45,633 INFO  [SettingsFactory.java:244] : Order SQL inserts for batching: disabled
+2021-10-14 17:11:45,634 INFO  [SettingsFactory.java:420] : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2021-10-14 17:11:45,634 INFO  [ASTQueryTranslatorFactory.java:47] : Using ASTQueryTranslatorFactory
+2021-10-14 17:11:45,635 INFO  [SettingsFactory.java:252] : Query language substitutions: {}
+2021-10-14 17:11:45,635 INFO  [SettingsFactory.java:257] : JPA-QL strict compliance: disabled
+2021-10-14 17:11:45,635 INFO  [SettingsFactory.java:262] : Second-level cache: enabled
+2021-10-14 17:11:45,635 INFO  [SettingsFactory.java:266] : Query cache: disabled
+2021-10-14 17:11:45,635 INFO  [SettingsFactory.java:405] : Cache region factory : org.onebusaway.container.spring.ehcache.EhCacheRegionFactory
+2021-10-14 17:11:45,637 INFO  [SettingsFactory.java:276] : Optimize cache for minimal puts: enabled
+2021-10-14 17:11:45,637 INFO  [SettingsFactory.java:285] : Structured second-level cache entries: enabled
+2021-10-14 17:11:45,639 INFO  [SettingsFactory.java:314] : Statistics: enabled
+2021-10-14 17:11:45,640 INFO  [SettingsFactory.java:318] : Deleted entity synthetic identifier rollback: disabled
+2021-10-14 17:11:45,640 INFO  [SettingsFactory.java:333] : Default entity-mode: pojo
+2021-10-14 17:11:45,640 INFO  [SettingsFactory.java:337] : Named query checking : enabled
+2021-10-14 17:11:45,664 INFO  [SessionFactoryImpl.java:187] : building session factory
+2021-10-14 17:11:45,761 WARN  [AbstractEhcacheRegionFactory.java:153] : Couldn't find a specific ehcache configuration for cache named [org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory]; using defaults.
+2021-10-14 17:11:45,787 WARN  [EhcacheAccessStrategyFactoryImpl.java:44] : read-only cache configured for mutable entity [org.onebusaway.transit_data_federation.impl.realtime.history.ScheduleDeviationHistory]
+2021-10-14 17:11:45,792 WARN  [AbstractEhcacheRegionFactory.java:153] : Couldn't find a specific ehcache configuration for cache named [org.onebusaway.transit_data_federation.impl.realtime.BlockLocationRecord]; using defaults.
+2021-10-14 17:11:45,823 INFO  [SessionFactoryObjectFactory.java:105] : Not binding factory to JNDI, no JNDI name configured
+2021-10-14 17:11:45,826 INFO  [SchemaUpdate.java:155] : Running hbm2ddl schema update
+2021-10-14 17:11:45,827 INFO  [SchemaUpdate.java:167] : fetching database metadata
+2021-10-14 17:11:45,830 INFO  [SchemaUpdate.java:179] : updating schema
+2021-10-14 17:11:45,857 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_SCHEDULE_DEVIATION_HISTORY
+2021-10-14 17:11:45,858 INFO  [TableMetadata.java:63] : columns: [trip_agencyid, trip_id, scheduledeviations, scheduletimes]
+2021-10-14 17:11:45,858 INFO  [TableMetadata.java:65] : foreign keys: []
+2021-10-14 17:11:45,858 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10097_10098]
+2021-10-14 17:11:45,861 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_STOP_PROBLEM_REPORTS
+2021-10-14 17:11:45,861 INFO  [TableMetadata.java:63] : columns: [stopid_id, code, data, stopid_agencyid, id, time, usercomment, userlon, userlocationaccuracy, status, userlat]
+2021-10-14 17:11:45,862 INFO  [TableMetadata.java:65] : foreign keys: []
+2021-10-14 17:11:45,862 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10102_10104]
+2021-10-14 17:11:45,864 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.OBA_TRIP_PROBLEM_REPORTS
+2021-10-14 17:11:45,864 INFO  [TableMetadata.java:63] : columns: [code, data, vehiclelon, userlat, scheduledeviation, block_agencyid, stop_id, id, usercomment, userlon, vehicle_id, predicted, vehiclelat, trip_agencyid, trip_id, stop_agencyid, label, useronvehicle, block_id, uservehiclenumber, vehicle_agencyid, matchedvehicle_id, servicedate, distancealongblock, time, matchedvehicle_agencyid, userlocationaccuracy, status]
+2021-10-14 17:11:45,865 INFO  [TableMetadata.java:65] : foreign keys: []
+2021-10-14 17:11:45,865 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10108_10113]
+2021-10-14 17:11:45,867 INFO  [TableMetadata.java:62] : table found: PUBLIC.PUBLIC.TRANSIT_DATA_BLOCK_LOCATION_RECORDS
+2021-10-14 17:11:45,868 INFO  [TableMetadata.java:63] : columns: [phase, locationlat, orientation, trip_agencyid, trip_id, timepointpredictedarrivaltime, timepointscheduledtime, timepointpredictedtime, block_id, timepoint_id, vehicle_agencyid, scheduledeviation, block_agencyid, servicedate, timepointpredicteddeparturetime, distancealongtrip, distancealongblock, id, time, locationlon, vehicle_id, status, timepoint_agencyid]
+2021-10-14 17:11:45,868 INFO  [TableMetadata.java:65] : foreign keys: []
+2021-10-14 17:11:45,868 INFO  [TableMetadata.java:66] : indexes: [sys_idx_sys_pk_10144_10150]
+2021-10-14 17:11:45,868 INFO  [SchemaUpdate.java:217] : schema update complete
+2021-10-14 17:11:46,060 INFO  [HibernateTransactionManager.java:415] : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@477d7cea] of Hibernate SessionFactory for HibernateTransactionManager
+2021-10-14 17:11:46,243 INFO  [MBeanExporter.java:412] : Registering beans for JMX exposure on startup
+2021-10-14 17:11:46,282 INFO  [MBeanExporter.java:886] : Bean with name 'blockLocationRecordDaoImpl' has been autodetected for JMX exposure
 initializing trip planner graph...
-  stops=139
-  trips= 256
-2021-07-16 14:53:29,456 INFO  [BlockIndexServiceImpl.java:317] : loading block trip indices data
-2021-07-16 14:53:29,466 INFO  [BlockIndexServiceImpl.java:328] : block indices data loaded
-2021-07-16 14:53:29,467 INFO  [BlockIndexServiceImpl.java:345] : loading block layover indices data
-2021-07-16 14:53:29,468 INFO  [BlockIndexServiceImpl.java:356] : block layover indices data loaded
-2021-07-16 14:53:29,469 INFO  [BlockIndexServiceImpl.java:373] : loading frequency block trip indices data
-2021-07-16 14:53:29,470 INFO  [BlockIndexServiceImpl.java:385] : block frequency trip indices data loaded
-2021-07-16 14:53:29,471 INFO  [BlockIndexServiceImpl.java:437] : calculating block trip indices by blockId...
-2021-07-16 14:53:29,482 INFO  [BlockIndexServiceImpl.java:459] : completed calculating block trip indices by blockId: t=11
-2021-07-16 14:53:29,497 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
-2021-07-16 14:53:29,502 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 139 out of stopTimes: 3003
-2021-07-16 14:53:29,503 INFO  [BlockStopTimeIndicesFactory.java:161] : groups processed: 0/139
-2021-07-16 14:53:29,510 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
-2021-07-16 14:53:29,511 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 0 out of stopTimes: 0
-2021-07-16 14:53:29,638 INFO  [BlockGeospatialServiceImpl.java:323] : loading shape point geospatial index...
-2021-07-16 14:53:29,646 INFO  [BlockGeospatialServiceImpl.java:327] : block shape geospatial nodes: 165
-2021-07-16 14:53:29,672 INFO  [MBeanExporter.java:886] : Bean with name 'blockLocationServiceImpl' has been autodetected for JMX exposure
-2021-07-16 14:53:29,762 INFO  [ServiceAlertsServiceImpl.java:588] : Loading service alerts from bundle
-2021-07-16 14:53:29,839 INFO  [MBeanExporter.java:886] : Bean with name 'arrivalsAndDeparturesBeanServiceImpl' has been autodetected for JMX exposure
-2021-07-16 14:53:29,843 INFO  [MBeanExporter.java:651] : Located managed bean 'arrivalsAndDeparturesBeanServiceImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.beans:name=ArrivalsAndDeparturesBeanServiceImpl,application="/webapp"]
-2021-07-16 14:53:29,861 INFO  [MBeanExporter.java:651] : Located managed bean 'blockLocationServiceImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.realtime:name=BlockLocationServiceImpl,application="/webapp"]
-2021-07-16 14:53:29,866 INFO  [MBeanExporter.java:651] : Located managed bean 'blockLocationRecordDaoImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.realtime:name=BlockLocationRecordDaoImpl,application="/webapp"]
-2021-07-16 14:53:30,209 INFO  [StreetToStopGraphLinkerService.java:81] : OTP graph is empty, so skipping street-to-stop linking step
-2021-07-16 14:53:30,699 INFO  [ExecutorConfigurationSupport.java:115] : Initializing ExecutorService  'scheduledExecutorService'
-2021-07-16 14:53:31,146 INFO  [GtfsRealtimeSource.java:203] : no agency ids specified for GtfsRealtimeSource, so defaulting to full agency id set
-2021-07-16 14:53:31,168 INFO  [ContextLoader.java:214] : Root WebApplicationContext: initialization completed in 6431 ms
-2021-07-16 14:53:31.168:INFO::started o.e.j.w.WebAppContext{/,file:/C:/Users/Joshua/AppData/Local/Temp/jetty-0.0.0.0-8080-onebusaway-quickstart-assembly-1.1.19-api-webapp.war-_-any-/webapp/},file:/C:/Users/Joshua/Documents/OBA/onebusaway-quickstart-assembly-1.1.19-api-webapp.war
-2021-07-16 14:53:31,368 INFO  [CommonsLogger.java:46] : Parsing configuration file [struts-default.xml]
-2021-07-16 14:53:31,445 INFO  [CommonsLogger.java:46] : Parsing configuration file [struts-plugin.xml]
-2021-07-16 14:53:31,473 INFO  [CommonsLogger.java:46] : Parsing configuration file [struts.xml]
-2021-07-16 14:53:31,482 INFO  [CommonsLogger.java:46] : Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
-2021-07-16 14:53:31,483 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
-2021-07-16 14:53:31,483 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
-2021-07-16 14:53:31,483 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
-2021-07-16 14:53:31,484 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
-2021-07-16 14:53:31,484 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
-2021-07-16 14:53:31,484 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
-2021-07-16 14:53:31,485 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
-2021-07-16 14:53:31,485 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
-2021-07-16 14:53:31,485 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
-2021-07-16 14:53:31,486 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
-2021-07-16 14:53:31,486 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
-2021-07-16 14:53:31,487 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
-2021-07-16 14:53:31,487 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
-2021-07-16 14:53:31,488 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
-2021-07-16 14:53:31,488 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
-2021-07-16 14:53:31,488 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
-2021-07-16 14:53:31,488 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
-2021-07-16 14:53:31,489 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
-2021-07-16 14:53:31,489 INFO  [CommonsLogger.java:46] : Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+  stops=81
+  trips= 138
+2021-10-14 17:11:46,736 INFO  [BlockIndexServiceImpl.java:317] : loading block trip indices data
+2021-10-14 17:11:46,746 INFO  [BlockIndexServiceImpl.java:328] : block indices data loaded
+2021-10-14 17:11:46,746 INFO  [BlockIndexServiceImpl.java:345] : loading block layover indices data
+2021-10-14 17:11:46,749 INFO  [BlockIndexServiceImpl.java:356] : block layover indices data loaded
+2021-10-14 17:11:46,750 INFO  [BlockIndexServiceImpl.java:373] : loading frequency block trip indices data
+2021-10-14 17:11:46,751 INFO  [BlockIndexServiceImpl.java:385] : block frequency trip indices data loaded
+2021-10-14 17:11:46,752 INFO  [BlockIndexServiceImpl.java:437] : calculating block trip indices by blockId...
+2021-10-14 17:11:46,758 INFO  [BlockIndexServiceImpl.java:459] : completed calculating block trip indices by blockId: t=6
+2021-10-14 17:11:46,766 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
+2021-10-14 17:11:46,768 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 81 out of stopTimes: 1906
+2021-10-14 17:11:46,769 INFO  [BlockStopTimeIndicesFactory.java:161] : groups processed: 0/81
+2021-10-14 17:11:46,772 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
+2021-10-14 17:11:46,773 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 0 out of stopTimes: 0
+2021-10-14 17:11:46,861 INFO  [BlockGeospatialServiceImpl.java:323] : loading shape point geospatial index...
+2021-10-14 17:11:46,868 INFO  [BlockGeospatialServiceImpl.java:327] : block shape geospatial nodes: 149
+2021-10-14 17:11:46,906 INFO  [MBeanExporter.java:886] : Bean with name 'blockLocationServiceImpl' has been autodetected for JMX exposure
+2021-10-14 17:11:46,997 INFO  [ServiceAlertsServiceImpl.java:588] : Loading service alerts from bundle
+2021-10-14 17:11:47,031 INFO  [MBeanExporter.java:886] : Bean with name 'arrivalsAndDeparturesBeanServiceImpl' has been autodetected for JMX exposure
+2021-10-14 17:11:47,033 INFO  [MBeanExporter.java:651] : Located managed bean 'arrivalsAndDeparturesBeanServiceImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.beans:name=ArrivalsAndDeparturesBeanServiceImpl]
+2021-10-14 17:11:47,045 INFO  [MBeanExporter.java:651] : Located managed bean 'blockLocationServiceImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.realtime:name=BlockLocationServiceImpl]
+2021-10-14 17:11:47,049 INFO  [MBeanExporter.java:651] : Located managed bean 'blockLocationRecordDaoImpl': registering with JMX server as MBean [org.onebusaway.transit_data_federation.impl.realtime:name=BlockLocationRecordDaoImpl]
+2021-10-14 17:11:47,116 INFO  [StreetToStopGraphLinkerService.java:81] : OTP graph is empty, so skipping street-to-stop linking step
+2021-10-14 17:11:47,387 INFO  [ExecutorConfigurationSupport.java:115] : Initializing ExecutorService  'scheduledExecutorService'
+== start =====>
+== gtfs =====>
+gtfs=C:\Users\Ricardo\Downloads\gtfs.zip
+2021-10-14 17:11:47,556 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Agency
+2021-10-14 17:11:47,585 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.ShapePoint
+ShapePoint = 1000 rate=9223372036854775807
+ShapePoint = 2000 rate=111111
+ShapePoint = 3000 rate=93750
+ShapePoint = 4000 rate=95238
+ShapePoint = 5000 rate=96153
+ShapePoint = 6000 rate=92307
+ShapePoint = 7000 rate=97222
+ShapePoint = 8000 rate=100000
+ShapePoint = 9000 rate=104651
+ShapePoint = 10000 rate=109890
+ShapePoint = 11000 rate=103773
+ShapePoint = 12000 rate=108108
+ShapePoint = 13000 rate=111111
+ShapePoint = 14000 rate=114754
+ShapePoint = 15000 rate=118110
+ShapePoint = 16000 rate=121212
+ShapePoint = 17000 rate=123188
+ShapePoint = 18000 rate=122448
+ShapePoint = 19000 rate=124183
+2021-10-14 17:11:47,784 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Route
+2021-10-14 17:11:47,792 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Stop
+2021-10-14 17:11:47,798 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Trip
+2021-10-14 17:11:47,819 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.StopTime
+StopTime = 1000 rate=9223372036854775807
+2021-10-14 17:11:47,856 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.ServiceCalendar
+2021-10-14 17:11:47,861 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.ServiceCalendarDate
+2021-10-14 17:11:47,864 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.FareAttribute
+2021-10-14 17:11:47,865 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.FareRule
+2021-10-14 17:11:47,866 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Frequency
+2021-10-14 17:11:47,866 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Pathway
+2021-10-14 17:11:47,867 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.Transfer
+2021-10-14 17:11:47,867 INFO  [GtfsMultiReaderImpl.java:102] : reading entities: org.onebusaway.gtfs.model.FeedInfo
+== calendar_service =====>
+2021-10-14 17:11:47,870 INFO  [CalendarServiceDataFactoryImpl.java:98] : serviceId=TIM_WE (1/2)
+2021-10-14 17:11:47,881 INFO  [CalendarServiceDataFactoryImpl.java:98] : serviceId=TIM_WD (2/2)
+== transit_graph =====>
+2021-10-14 17:11:47,943 INFO  [StopEntriesFactory.java:64] : stops: 0/81
+2021-10-14 17:11:47,943 INFO  [RouteEntriesFactory.java:55] : route processed: 0/6
+2021-10-14 17:11:47,944 INFO  [RouteEntriesFactory.java:55] : route processed: 1/6
+2021-10-14 17:11:47,944 INFO  [RouteEntriesFactory.java:55] : route processed: 2/6
+2021-10-14 17:11:47,944 INFO  [RouteEntriesFactory.java:55] : route processed: 3/6
+2021-10-14 17:11:47,944 INFO  [RouteEntriesFactory.java:55] : route processed: 4/6
+2021-10-14 17:11:47,945 INFO  [RouteEntriesFactory.java:55] : route processed: 5/6
+2021-10-14 17:11:47,945 INFO  [TripEntriesFactory.java:102] : route processed: 0/6
+2021-10-14 17:11:47,945 INFO  [TripEntriesFactory.java:107] : trips to process: 24
+2021-10-14 17:11:48,150 INFO  [TripEntriesFactory.java:102] : route processed: 1/6
+2021-10-14 17:11:48,150 INFO  [TripEntriesFactory.java:107] : trips to process: 28
+2021-10-14 17:11:48,247 INFO  [TripEntriesFactory.java:102] : route processed: 2/6
+2021-10-14 17:11:48,247 INFO  [TripEntriesFactory.java:107] : trips to process: 32
+2021-10-14 17:11:48,365 INFO  [TripEntriesFactory.java:102] : route processed: 3/6
+2021-10-14 17:11:48,365 INFO  [TripEntriesFactory.java:107] : trips to process: 20
+2021-10-14 17:11:48,375 INFO  [TripEntriesFactory.java:102] : route processed: 4/6
+2021-10-14 17:11:48,376 INFO  [TripEntriesFactory.java:107] : trips to process: 18
+2021-10-14 17:11:48,400 INFO  [TripEntriesFactory.java:102] : route processed: 5/6
+2021-10-14 17:11:48,400 INFO  [TripEntriesFactory.java:107] : trips to process: 16
+2021-10-14 17:11:48,444 INFO  [BlockEntriesFactory.java:73] : routes: 0/6
+2021-10-14 17:11:48,444 INFO  [BlockEntriesFactory.java:73] : routes: 1/6
+2021-10-14 17:11:48,445 INFO  [BlockEntriesFactory.java:73] : routes: 2/6
+2021-10-14 17:11:48,445 INFO  [BlockEntriesFactory.java:73] : routes: 3/6
+2021-10-14 17:11:48,445 INFO  [BlockEntriesFactory.java:73] : routes: 4/6
+2021-10-14 17:11:48,445 INFO  [BlockEntriesFactory.java:73] : routes: 5/6
+2021-10-14 17:11:48,446 INFO  [BlockEntriesFactory.java:116] : block: 0/138
+2021-10-14 17:11:48,447 INFO  [BlockEntriesFactory.java:116] : block: 10/138
+2021-10-14 17:11:48,447 INFO  [BlockEntriesFactory.java:116] : block: 20/138
+2021-10-14 17:11:48,447 INFO  [BlockEntriesFactory.java:116] : block: 30/138
+2021-10-14 17:11:48,448 INFO  [BlockEntriesFactory.java:116] : block: 40/138
+2021-10-14 17:11:48,448 INFO  [BlockEntriesFactory.java:116] : block: 50/138
+2021-10-14 17:11:48,448 INFO  [BlockEntriesFactory.java:116] : block: 60/138
+2021-10-14 17:11:48,449 INFO  [BlockEntriesFactory.java:116] : block: 70/138
+2021-10-14 17:11:48,449 INFO  [BlockEntriesFactory.java:116] : block: 80/138
+2021-10-14 17:11:48,449 INFO  [BlockEntriesFactory.java:116] : block: 90/138
+2021-10-14 17:11:48,449 INFO  [BlockEntriesFactory.java:116] : block: 100/138
+2021-10-14 17:11:48,450 INFO  [BlockEntriesFactory.java:116] : block: 110/138
+2021-10-14 17:11:48,450 INFO  [BlockEntriesFactory.java:116] : block: 120/138
+2021-10-14 17:11:48,450 INFO  [BlockEntriesFactory.java:116] : block: 130/138
+2021-10-14 17:11:48,457 INFO  [FrequencyEntriesFactory.java:94] : block: 0/138
+2021-10-14 17:11:48,457 INFO  [FrequencyEntriesFactory.java:94] : block: 10/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 20/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 30/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 40/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 50/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 60/138
+2021-10-14 17:11:48,458 INFO  [FrequencyEntriesFactory.java:94] : block: 70/138
+2021-10-14 17:11:48,459 INFO  [FrequencyEntriesFactory.java:94] : block: 80/138
+2021-10-14 17:11:48,459 INFO  [FrequencyEntriesFactory.java:94] : block: 90/138
+2021-10-14 17:11:48,459 INFO  [FrequencyEntriesFactory.java:94] : block: 100/138
+2021-10-14 17:11:48,459 INFO  [FrequencyEntriesFactory.java:94] : block: 110/138
+2021-10-14 17:11:48,459 INFO  [FrequencyEntriesFactory.java:94] : block: 120/138
+2021-10-14 17:11:48,460 INFO  [FrequencyEntriesFactory.java:94] : block: 130/138
+initializing trip planner graph...
+  stops=81
+  trips= 138
+initializing trip planner graph...
+  stops=81
+  trips= 138
+2021-10-14 17:11:48,666 INFO  [StreetToStopGraphLinkerService.java:81] : OTP graph is empty, so skipping street-to-stop linking step
+== block_indices =====>
+2021-10-14 17:11:48,685 INFO  [BlockIndexServiceImpl.java:317] : loading block trip indices data
+2021-10-14 17:11:48,686 INFO  [BlockIndexServiceImpl.java:328] : block indices data loaded
+2021-10-14 17:11:48,686 INFO  [BlockIndexServiceImpl.java:345] : loading block layover indices data
+2021-10-14 17:11:48,687 INFO  [BlockIndexServiceImpl.java:356] : block layover indices data loaded
+2021-10-14 17:11:48,687 INFO  [BlockIndexServiceImpl.java:373] : loading frequency block trip indices data
+2021-10-14 17:11:48,688 INFO  [BlockIndexServiceImpl.java:385] : block frequency trip indices data loaded
+2021-10-14 17:11:48,688 INFO  [BlockIndexServiceImpl.java:437] : calculating block trip indices by blockId...
+2021-10-14 17:11:48,690 INFO  [BlockIndexServiceImpl.java:459] : completed calculating block trip indices by blockId: t=1
+2021-10-14 17:11:48,692 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
+2021-10-14 17:11:48,692 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 81 out of stopTimes: 1906
+2021-10-14 17:11:48,693 INFO  [BlockStopTimeIndicesFactory.java:161] : groups processed: 0/81
+2021-10-14 17:11:48,694 INFO  [BlockStopTimeIndicesFactory.java:99] : grouping block stop times by key
+2021-10-14 17:11:48,694 INFO  [BlockStopTimeIndicesFactory.java:130] : groups found: 0 out of stopTimes: 0
+== narratives =====>
+2021-10-14 17:11:48,695 INFO  [GenerateNarrativesTask.java:217] : shapes to process=12
+2021-10-14 17:11:48,695 INFO  [GenerateNarrativesTask.java:222] : shapes=0
+2021-10-14 17:11:48,695 INFO  [GenerateNarrativesTask.java:222] : shapes=10
+2021-10-14 17:11:48,696 INFO  [GenerateNarrativesTask.java:241] : stops=0
+2021-10-14 17:11:48,701 INFO  [GenerateNarrativesTask.java:241] : stops=10
+2021-10-14 17:11:48,703 INFO  [GenerateNarrativesTask.java:241] : stops=20
+2021-10-14 17:11:48,704 INFO  [GenerateNarrativesTask.java:241] : stops=30
+2021-10-14 17:11:48,704 INFO  [GenerateNarrativesTask.java:241] : stops=40
+2021-10-14 17:11:48,705 INFO  [GenerateNarrativesTask.java:241] : stops=50
+2021-10-14 17:11:48,705 INFO  [GenerateNarrativesTask.java:241] : stops=60
+2021-10-14 17:11:48,706 INFO  [GenerateNarrativesTask.java:241] : stops=70
+2021-10-14 17:11:48,706 INFO  [GenerateNarrativesTask.java:241] : stops=80
+2021-10-14 17:11:48,707 INFO  [GenerateNarrativesTask.java:268] : trips=0 of 138
+== route_search_index =====>
+== stop_search_index =====>
+== shape_geospatial_index =====>
+2021-10-14 17:11:49,031 INFO  [ShapeGeospatialIndexTask.java:136] : generating shape point geospatial index...
+2021-10-14 17:11:49,043 INFO  [ShapeGeospatialIndexTask.java:172] : block shape geospatial nodes: 149
+2021-10-14 17:11:49,051 INFO  [BlockGeospatialServiceImpl.java:323] : loading shape point geospatial index...
+2021-10-14 17:11:49,052 INFO  [BlockGeospatialServiceImpl.java:327] : block shape geospatial nodes: 149
+== pre_cache =====>
+agency=TIM
+  stop=TIM_R106RS04
+  stop=TIM_R106RS03
+  stop=TIM_R106RS02
+  stop=TIM_R108RS13
+  stop=TIM_R108RS12
+  stop=TIM_R108RS11
+  stop=TIM_R108RS10
+  stop=TIM_R105RS02
+  stop=TIM_R105RS03
+  stop=TIM_R108RS09
+  stop=TIM_R105RS04
+  stop=TIM_R108RS08
+  stop=TIM_R105RS05
+  stop=TIM_R108RS07
+  stop=TIM_R108RS06
+  stop=TIM_R108RS05
+  stop=TIM_R108RS04
+  stop=TIM_R108RS03
+  stop=TIM_T01
+  stop=TIM_R348RS13
+  stop=TIM_R348RS12
+  stop=TIM_R348RS11
+  stop=TIM_R348RS10
+  stop=TIM_R348RS09
+  stop=TIM_R348RS08
+  stop=TIM_R348RS07
+  stop=TIM_R108RS15
+  stop=TIM_R348RS06
+  stop=TIM_R108RS14
+  stop=TIM_R348RS05
+  stop=TIM_R102RS03
+  stop=TIM_R102RS04
+  stop=TIM_R349RS03
+  stop=TIM_R102RS02
+  stop=TIM_R349RS02
+  stop=TIM_R102RS07
+  stop=TIM_R102RS08
+  stop=TIM_R102RS05
+  stop=TIM_R102RS06
+  stop=TIM_R349RS09
+  stop=TIM_R349RS08
+  stop=TIM_R102RS09
+  stop=TIM_R2US01
+  stop=TIM_R349RS05
+  stop=TIM_R349RS04
+  stop=TIM_R349RS07
+  stop=TIM_R349RS06
+  stop=TIM_R348RS04
+  stop=TIM_R348RS03
+  stop=TIM_R348RS02
+  stop=TIM_R349RS12
+  stop=TIM_R106RS18
+  stop=TIM_R349RS11
+  stop=TIM_R106RS17
+  stop=TIM_R349RS14
+  stop=TIM_R106RS16
+  stop=TIM_R349RS13
+  stop=TIM_R349RS10
+  stop=TIM_R106RS11
+  stop=TIM_R106RS10
+  stop=TIM_R106RS15
+  stop=TIM_R106RS14
+  stop=TIM_R106RS13
+  stop=TIM_R106RS12
