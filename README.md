@@ -1,10 +1,10 @@
+# OBA-v1
+
+
 # onebusaway-docker
 
-:warning: Look at https://github.com/open-austin/onebusaway-script/, its works more! :warning:
-
-Docker scripts to start a OneBusAway server.
-
-We're creating this as part of https://github.com/open-austin/project-ideas/issues/21.
+:warning: Look at https://github.com/open-austin/onebusaway-script/:warning:
+:warning: Look at https://github.com/open-austin/onebusaway-docker :warning:
 
 ### Running the OBA Docker
 
@@ -17,11 +17,16 @@ curl http://$DOCKER_IP:8080/api/where/agencies-with-coverage.json?key=web
 http://137.184.104.61:8080/api/where/agencies-with-coverage.xml?key=TEST
 City specific data:
 
+<<<<<<< HEAD
 - gtfs.zip
+=======
+- bundle/
+>>>>>>> 1e82b3d838827fe1622290673921a422c38d7d8e
 - Dockerfile
     - gtfsRealtimeAlertsUrl
     - gtfsRealtimeTripUpdatesUrl
     - gtfsRealtimeVehiclePositionsUrl
+<<<<<<< HEAD
 
 ### Deploying to Azure
 
@@ -29,3 +34,5 @@ https://github.com/Azure/azure-quickstart-templates/tree/9ad72f1f5f0008c14311be7
 
 pbpaste > {"username":"NewUsername", "password":"NewPassword", "ssh_key":"", "reset_ssh":false, "remove_user":""}
 azure vm extension set Default MyDockerVM VMAccessForLinux Microsoft.OSTCExtensions "1.2" --private-config-path  PrivateConf.json
+=======
+>>>>>>> 1e82b3d838827fe1622290673921a422c38d7d8e
