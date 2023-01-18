@@ -5,10 +5,17 @@ This repository is a modified vesion of https://github.com/open-austin/onebusawa
 ### Running the OBA Docker
 
 ```
-java -Xmx1G -server   -jar oba.war -build /root/OBA-v1/save_oba_gtfs_uprm/gtfs.zip  /root/OBA-v1/bundle/ 
 docker build -t oba .
 docker run -p 8080:8080 -t oba
+from flask import Flask
+server = Flask(__name__)
 
+@server.route("/")
+ def hello():
+    return "Hello World!"
+
+if __name__ == "__main__":
+   server.run(host='0.0.0.0')
 ```
 http://IP:8080/api/where/agencies-with-coverage.xml?key=TEST
 City specific data:
